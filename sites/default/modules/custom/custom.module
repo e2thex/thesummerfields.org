@@ -1,0 +1,4 @@
+<?php
+function custom_init() {
+  drupal_add_css(drupal_get_path('module','custom')."/custom.css");
+}

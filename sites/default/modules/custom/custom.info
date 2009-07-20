@@ -1,0 +1,6 @@
+; $Id
+name = Custom
+description = Provides Custom Content
+core = 6.x
+
+
