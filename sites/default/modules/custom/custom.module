@@ -2,3 +2,8 @@
 function custom_init() {
   drupal_add_css(drupal_get_path('module','custom')."/custom.css");
 }
+function custom_preprocess_node(&$param, $hook) {
+  if ($url = $param['feedapi_node']->url) {
+    $param['node_url']= $url;
+  }
+}
