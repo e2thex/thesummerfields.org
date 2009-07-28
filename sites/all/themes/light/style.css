@@ -132,7 +132,10 @@ li
 }
 #navigation a.active:link span,
 #navigation a.active:visited span,
-#navigation a.active:hover span 
+#navigation a.active:hover span, 
+#navigation a.active-trail:link span,
+#navigation a.active-trail:visited span,
+#navigation a.active-trail:hover span 
 {
 	background:url(images/current2.gif) right bottom no-repeat;
 	padding-right:15px;
