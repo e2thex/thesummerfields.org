@@ -5,7 +5,7 @@
 .field-field-video {float:right}
 .field-field-images {display:inline}
 td {
-  vertical-align:top
+  vertical-align:top;
   width: 200px;
 }
 
