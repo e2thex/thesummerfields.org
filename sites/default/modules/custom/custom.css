@@ -1,4 +1,8 @@
 
 #logoandtitle div.logo img {background:transparent;}
 .field-field-images .field-item { float:left;}
+.links { clear:both; }
+.field-field-video {float:right}
+.field-field-images {display:inline}
+td {vertical-align:top}
 
