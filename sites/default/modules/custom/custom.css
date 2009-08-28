@@ -4,5 +4,8 @@
 .links { clear:both; }
 .field-field-video {float:right}
 .field-field-images {display:inline}
-td {vertical-align:top}
+td {
+  vertical-align:top
+  width: 200px;
+}
 
